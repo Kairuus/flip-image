@@ -32,6 +32,7 @@ export class AppComponent {
     let allImages = (document.querySelectorAll('.image'))
 
     allImages.forEach( image => {
+      if(newImg)
       image.setAttribute('src', newImg)
     })
   }

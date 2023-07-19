@@ -1,10 +1,12 @@
 
 .back{
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: url('../assets/bg.jpg');
+  background: url('../assets/background.jpg');
   background-size: cover;
 }
 
@@ -56,7 +58,7 @@ header{
 .container{
   width: 530px;
   height: 530px;
-  margin: 30px auto;
+  margin: 20px auto;
   padding: 10px;
   background-color: black;
   display: grid;
